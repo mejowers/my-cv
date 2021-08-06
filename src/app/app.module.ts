@@ -4,14 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ContactInfoComponent } from './contact-info/contact-info.component';
-import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { ContactInfoComponent } from './feature/contact-info/contact-info.component';
+import { WorkExperienceComponent } from './feature/work-experience/work-experience.component';
+import { EducationComponent } from './feature/education/education.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactInfoComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
